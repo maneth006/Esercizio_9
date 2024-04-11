@@ -1,0 +1,55 @@
+@font-face {
+    font-family: spaziale;
+    src: url("../../assets/font/BungeeSpice-Regular.ttf") ;
+}
+@font-face {
+    font-family: spaziale2;
+    src: url("../../assets/font/Orbitron-VariableFont_wght.ttf") ;
+}
+.titolo {
+    background: #272727;
+    font-family: spaziale;
+    color: white;
+    font-size: large;
+    height: 50px;
+}
+.bg {
+    background-image: url("../../assets/video/204925-925628390_small.mp4");
+    background-size: cover;  /* Scales video to cover the element */
+    background-repeat: no-repeat;  /* Prevents video from repeating */
+    background-position: center center;  /* Centers the video */
+    padding-top: 100px;
+}
+
+.textbgh1 {
+    font-size: 40px;
+    font-family: spaziale;
+    text-align: center;
+    
+}
+
+.textbg2 {
+    background: #000;
+    opacity: 0.8;
+}
+
+
+.textbg {
+    font-size: 30px;
+    font-family: spaziale2;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+#video-background {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+}

@@ -30,6 +30,11 @@
     
 }
 
+.textbg2 {
+    opacity: inherit;
+    
+}
+
 .textbg {
     font-size: 30px;
     font-family: spaziale;

@@ -13,12 +13,17 @@
     font-size: large;
     height: 50px;
 }
+
+p {
+    line-height: 1.5;
+}
+
 .bg {
     background-image: url("../../assets/video/204925-925628390_small.mp4");
     background-size: cover;  /* Scales video to cover the element */
     background-repeat: no-repeat;  /* Prevents video from repeating */
     background-position: center center;  /* Centers the video */
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .textbgh1 {

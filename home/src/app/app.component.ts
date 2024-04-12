@@ -14,6 +14,16 @@ import { IntroductionComponent } from './introduction/introduction.component';
 })
 export class AppComponent {
   title = 'home';
+  pagina: string ="home";
 
+  onRiceviDati(value: any){
+    this.pagina = value;
+    console.log(value)
+  }
+
+  onRiceviDati2(value: any){
+    this.pagina = value;
+    console.log(value)
+  }
   
 }

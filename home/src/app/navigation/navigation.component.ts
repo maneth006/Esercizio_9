@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 export class NavigationComponent {
   @Output() mandaDatiEvento = new EventEmitter<string>();
   @Output() mandaDatiEvento2 = new EventEmitter<string>();
-  pagina: string ="home"
+  pagina = "home"
 
   onClickHome(){
     this.pagina = "home";

@@ -23,7 +23,7 @@
         <br> 
         <p class="information">In questo fantastico viaggio potete andare in un'altro pianeta del {{element.Sistemasolare}}, in questa descrizione potete vedere tutti i dettagli per andare sul pianeta {{element.nome}}. 
             <br>
-            Questo viaggio dura {{element.Durata}}, la distanza in anni luce è di {{element.Distanza}} , per maggiori informazioni punta il mouse soppra l'immagine.</p>
+            Questo viaggio dura {{element.Durata}}, la distanza in anni luce è di {{element.Distanza | number: '1.3-6'}} (Tra {{element.Distanza1}} di km e {{element.Distanza2}} di km), per maggiori informazioni punta il mouse soppra l'immagine.</p>
                 
     </div>
         
@@ -35,9 +35,9 @@
         <h2> Description</h2>
         <ul>
             <li><strong>Spazioporto: </strong>{{element.Spazioporto}} </li>
-            <li><strong>Data di partenza: </strong>{{element.partenza1}}</li>
-            <li><strong>Data di arrivo: </strong>{{element.arrivo}}</li>
-            <li><strong>Costo: </strong>{{element.Costo}}</li>
+            <li><strong>Data di partenza: </strong>{{element.partenza1 | date: "longDate"}}</li>
+            <li><strong>Data di arrivo: </strong>{{element.arrivo | date: "longDate"}}</li>
+            <li><strong>Costo: </strong>{{element.Costo | currency: 'USD':'symbol'}}</li>
         </ul>
     </div>
     </div>
